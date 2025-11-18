@@ -1,0 +1,20 @@
+my_robot_bringup paketi:
+
+    amiga_bringup.launch
+        amiga_nav2---> navigasyon paketi, param klasörü altında parametreleri yer alıyor
+        amiga_ekf---> extended kalman filter node, robotun localizationunu sensörden aldığı verilere göre yapar 
+        map_server ---> mapi kaydedip navigation paketine yollar, map günceller vs.
+
+my_robot_description paketi:
+
+    display  robot state publish eder, robotun sabit linkleriin tfsini yayınlar.
+    
+
+robot_web_server paketi
+
+    goal_sender:gelen goal pose verilerini navigation serverına istek atan client
+    task_manager: mission ve goal pose dinleyen paket, aktif değil
+    websocket_server: webspcketten gelen mesajları ros ortamına aktarır, rostan gelenleri websockete gönderir. iletişim node'u
+
+
+

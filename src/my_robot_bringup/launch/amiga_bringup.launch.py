@@ -25,9 +25,9 @@ def launch_setup(context, *args, **kwargs):
 
     # Nav2 launch
     nav2_node = Node(
-        package='nav2_bringup',
-        executable='navigation_launch',
-        name='navigation_launch',
+        package='my_robot_bringup',
+        executable='amiga_navitation',
+        name='amiga_navitation',
         output='screen',
         parameters=[{'use_sim_time': False}],
     )

@@ -1,6 +1,9 @@
 # This configs for the EKF, it contains two node that is local and global node, local node publish_tf between odom and base_link
 # and global node publish_tf betw. map and odom 
 
+#TODO imu_covariance ekle 
+#NAVSAT TRANSFORM NODE VE GPS ile dene
+
 ekf_local_node:
   ros__parameters:
     frequency: 20.0
