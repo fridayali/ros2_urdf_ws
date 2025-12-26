@@ -1,0 +1,24 @@
+[0.533s] Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server:/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin -- -j12 -l12
+[0.983s] [100%] Built target nav2_gradient_costmap_plugin_core
+[1.028s] Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server:/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin -- -j12 -l12
+[1.031s] Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server:/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin
+[1.078s] -- Install configuration: ""
+[1.078s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/lib/libnav2_gradient_costmap_plugin_core.so
+[1.078s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/gradient_layer.xml
+[1.079s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_gradient_costmap_plugin
+[1.079s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_gradient_costmap_plugin
+[1.079s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/ament_prefix_path.sh
+[1.079s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/ament_prefix_path.dsv
+[1.079s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/path.sh
+[1.079s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/path.dsv
+[1.079s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.bash
+[1.079s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.sh
+[1.080s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.zsh
+[1.080s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.dsv
+[1.080s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.dsv
+[1.080s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/packages/nav2_gradient_costmap_plugin
+[1.080s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_gradient_costmap_plugin
+[1.080s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/cmake/nav2_gradient_costmap_pluginConfig.cmake
+[1.080s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/cmake/nav2_gradient_costmap_pluginConfig-version.cmake
+[1.080s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.xml
+[1.187s] Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server:/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin

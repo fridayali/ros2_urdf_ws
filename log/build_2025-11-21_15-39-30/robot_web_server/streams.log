@@ -1,0 +1,21 @@
+[1.929s] Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/src/robot_web_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_web_server build --build-base /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build install --record /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/install.log --single-version-externally-managed install_data
+[2.398s] running egg_info
+[2.428s] writing ../../build/robot_web_server/robot_web_server.egg-info/PKG-INFO
+[2.428s] writing dependency_links to ../../build/robot_web_server/robot_web_server.egg-info/dependency_links.txt
+[2.429s] writing entry points to ../../build/robot_web_server/robot_web_server.egg-info/entry_points.txt
+[2.429s] writing requirements to ../../build/robot_web_server/robot_web_server.egg-info/requires.txt
+[2.429s] writing top-level names to ../../build/robot_web_server/robot_web_server.egg-info/top_level.txt
+[2.497s] reading manifest file '../../build/robot_web_server/robot_web_server.egg-info/SOURCES.txt'
+[2.498s] writing manifest file '../../build/robot_web_server/robot_web_server.egg-info/SOURCES.txt'
+[2.498s] running build
+[2.498s] running build_py
+[2.499s] running install
+[2.509s] running install_lib
+[2.541s] running install_data
+[2.541s] running install_egg_info
+[2.575s] removing '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server-0.0.0-py3.12.egg-info' (and everything under it)
+[2.575s] Copying ../../build/robot_web_server/robot_web_server.egg-info to /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server-0.0.0-py3.12.egg-info
+[2.576s] running install_scripts
+[2.815s] Installing web_server script to /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/robot_web_server
+[2.816s] writing list of installed files to '/home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/install.log'
+[2.869s] Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/src/robot_web_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_web_server build --build-base /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build install --record /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/install.log --single-version-externally-managed install_data

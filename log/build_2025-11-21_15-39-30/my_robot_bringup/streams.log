@@ -1,0 +1,37 @@
+[0.076s] Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup -- -j12 -l12
+[0.862s] Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup -- -j12 -l12
+[0.877s] Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup
+[0.899s] -- Install configuration: ""
+[0.922s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//launch
+[0.922s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.py
+[0.922s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//launch/amiga_bringup.launch.py
+[0.923s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//launch/amiga_navsat_ekf.launch.py
+[0.923s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//launch/amiga_navigation.launch.py
+[0.924s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//launch/ekf_navsat.launch.py
+[0.925s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.xml
+[0.925s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//launch/bringup_withgazebo.launch.py
+[0.925s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//launch/amiga_ekf.launch.py
+[0.926s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//launch/map_server.launch.py
+[0.926s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//config
+[0.928s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//config/navsat_ekf.yaml
+[0.929s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//config/amiga_eski.yaml
+[0.930s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//config/gazebo_bridge.yaml
+[0.930s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//config/navsat_ekf2.yaml
+[0.930s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//config/amiga_ekf.yaml
+[0.931s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup//config/navsat_amiga.yaml
+[0.931s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[0.931s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[0.932s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[0.933s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[0.935s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[0.935s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[0.936s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[0.937s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[0.942s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[0.942s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[0.942s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[0.942s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[0.942s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[0.942s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[0.943s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[1.007s] Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup

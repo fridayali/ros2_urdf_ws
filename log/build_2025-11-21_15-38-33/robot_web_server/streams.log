@@ -1,0 +1,52 @@
+[3.248s] Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/src/robot_web_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_web_server build --build-base /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build install --record /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/install.log --single-version-externally-managed install_data
+[3.869s] running egg_info
+[3.871s] creating ../../build/robot_web_server/robot_web_server.egg-info
+[3.911s] writing ../../build/robot_web_server/robot_web_server.egg-info/PKG-INFO
+[3.911s] writing dependency_links to ../../build/robot_web_server/robot_web_server.egg-info/dependency_links.txt
+[3.912s] writing entry points to ../../build/robot_web_server/robot_web_server.egg-info/entry_points.txt
+[3.912s] writing requirements to ../../build/robot_web_server/robot_web_server.egg-info/requires.txt
+[3.912s] writing top-level names to ../../build/robot_web_server/robot_web_server.egg-info/top_level.txt
+[3.912s] writing manifest file '../../build/robot_web_server/robot_web_server.egg-info/SOURCES.txt'
+[3.995s] reading manifest file '../../build/robot_web_server/robot_web_server.egg-info/SOURCES.txt'
+[3.996s] writing manifest file '../../build/robot_web_server/robot_web_server.egg-info/SOURCES.txt'
+[3.996s] running build
+[3.996s] running build_py
+[3.996s] creating /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build
+[3.996s] creating /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib
+[3.997s] creating /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+[3.997s] copying robot_web_server/utils.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+[3.997s] copying robot_web_server/task_manager.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+[3.997s] copying robot_web_server/path_coverage.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+[3.997s] copying robot_web_server/goal_sender.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+[3.998s] copying robot_web_server/grid_map_lib.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+[3.998s] copying robot_web_server/websocket_server.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+[3.998s] copying robot_web_server/__init__.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+[3.998s] running install
+[4.010s] running install_lib
+[4.066s] creating /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+[4.067s] copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/utils.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+[4.067s] copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/task_manager.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+[4.067s] copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/path_coverage.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+[4.068s] copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/goal_sender.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+[4.068s] copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/grid_map_lib.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+[4.068s] copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/websocket_server.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+[4.069s] copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/__init__.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+[4.070s] byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/utils.py to utils.cpython-312.pyc
+[4.072s] byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/task_manager.py to task_manager.cpython-312.pyc
+[4.075s] byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/path_coverage.py to path_coverage.cpython-312.pyc
+[4.081s] byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/goal_sender.py to goal_sender.cpython-312.pyc
+[4.085s] byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/grid_map_lib.py to grid_map_lib.cpython-312.pyc
+[4.089s] byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/websocket_server.py to websocket_server.cpython-312.pyc
+[4.096s] byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/__init__.py to __init__.cpython-312.pyc
+[4.096s] running install_data
+[4.096s] creating /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/ament_index
+[4.097s] creating /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/ament_index/resource_index
+[4.097s] creating /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/ament_index/resource_index/packages
+[4.097s] copying resource/robot_web_server -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/ament_index/resource_index/packages
+[4.098s] copying package.xml -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/robot_web_server
+[4.098s] running install_egg_info
+[4.158s] Copying ../../build/robot_web_server/robot_web_server.egg-info to /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server-0.0.0-py3.12.egg-info
+[4.159s] running install_scripts
+[4.506s] Installing web_server script to /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/robot_web_server
+[4.506s] writing list of installed files to '/home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/install.log'
+[4.603s] Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/src/robot_web_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_web_server build --build-base /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build install --record /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/install.log --single-version-externally-managed install_data

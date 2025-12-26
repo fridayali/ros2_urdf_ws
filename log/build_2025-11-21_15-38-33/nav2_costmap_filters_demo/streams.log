@@ -1,0 +1,49 @@
+[0.078s] Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_costmap_filters_demo -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo
+[1.350s] -- The C compiler identification is GNU 13.3.0
+[1.351s] -- The CXX compiler identification is GNU 13.3.0
+[1.351s] -- Detecting C compiler ABI info
+[1.352s] -- Detecting C compiler ABI info - done
+[1.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.353s] -- Detecting C compile features
+[1.353s] -- Detecting C compile features - done
+[1.354s] -- Detecting CXX compiler ABI info
+[1.354s] -- Detecting CXX compiler ABI info - done
+[1.354s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.355s] -- Detecting CXX compile features
+[1.355s] -- Detecting CXX compile features - done
+[1.356s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.498s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.195s] -- Configuring done (2.1s)
+[2.204s] -- Generating done (0.0s)
+[2.209s] -- Build files have been written to: /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo
+[2.222s] Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_costmap_filters_demo -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo
+[2.224s] Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo -- -j12 -l12
+[2.319s] Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo -- -j12 -l12
+[2.322s] Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo
+[2.337s] -- Install configuration: ""
+[2.337s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/launch
+[2.338s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/launch/costmap_filter_info.launch.py
+[2.338s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps
+[2.338s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.pgm
+[2.338s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.yaml
+[2.339s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.yaml
+[2.339s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.pgm
+[2.339s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params
+[2.339s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/keepout_params.yaml
+[2.340s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/speed_params.yaml
+[2.340s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_filters_demo
+[2.340s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_filters_demo
+[2.340s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.sh
+[2.341s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.dsv
+[2.341s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.sh
+[2.341s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.dsv
+[2.341s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.bash
+[2.342s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.sh
+[2.342s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.zsh
+[2.342s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.dsv
+[2.342s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.dsv
+[2.343s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/packages/nav2_costmap_filters_demo
+[2.343s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig.cmake
+[2.343s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig-version.cmake
+[2.344s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.xml
+[2.346s] Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo

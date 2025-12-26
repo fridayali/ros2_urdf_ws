@@ -1,0 +1,35 @@
+[0.962s] Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server:/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description -- -j12 -l12
+[1.210s] Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server:/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description -- -j12 -l12
+[1.213s] Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server:/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description
+[1.240s] -- Install configuration: ""
+[1.241s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/src
+[1.241s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/src/description
+[1.241s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.sdf
+[1.242s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf
+[1.242s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/launch
+[1.243s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py
+[1.243s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/rviz
+[1.244s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/rviz/config.rviz
+[1.244s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/config
+[1.244s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/config/nav2_params.yaml
+[1.244s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/config/ekf.yaml
+[1.245s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/config/bridge_config.yaml
+[1.245s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/world
+[1.245s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/world/empty.world.sdf
+[1.245s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/world/my_world.sdf
+[1.246s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/ament_index/resource_index/package_run_dependencies/sam_bot_description
+[1.246s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/ament_index/resource_index/parent_prefix_path/sam_bot_description
+[1.247s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.sh
+[1.248s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.dsv
+[1.248s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/environment/path.sh
+[1.249s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/environment/path.dsv
+[1.250s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/local_setup.bash
+[1.251s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/local_setup.sh
+[1.252s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/local_setup.zsh
+[1.253s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/local_setup.dsv
+[1.254s] -- Installing: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/package.dsv
+[1.254s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/ament_index/resource_index/packages/sam_bot_description
+[1.255s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig.cmake
+[1.255s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig-version.cmake
+[1.255s] -- Up-to-date: /home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/package.xml
+[1.256s] Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server:/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description

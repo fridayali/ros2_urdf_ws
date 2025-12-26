@@ -33,13 +33,12 @@ from tf_transformations import quaternion_from_euler
 from cv_bridge import CvBridge
 import cv2
 import base64
-import numpy
 
 
 #TODO TOOLS EKLENSİN
 
 ROBOT_ID = 6
-BASE_URL = "http://backend.agrobrain.com.tr"
+BASE_URL = "https://backend.agrobrain.com.tr"
 REGISTER_URL = f"{BASE_URL}/amiga/register"
 ROBOT_PAYLOAD = {
     "robot_id": ROBOT_ID,
@@ -68,7 +67,6 @@ class TelemetryListener(Node):
             "motor_temps": [None, None, None, None],
             "battery_state": None,
             "tool_status": "STATUS_UNKNOWN",
-            "goal_pose_status": 0
         }
 
         self.camera_data={
@@ -81,7 +79,7 @@ class TelemetryListener(Node):
         self.create_subscription(Odometry, '/rtk/odom', self.heading_callback, 10)
         self.create_subscription(Float32MultiArray, '/motor_state', self.motor_callback, 10)
         self.create_subscription(BatteryState, '/battery_state', self.battery_callback, 10)
-        self.create_subscription(String, '/tool_status', self.tool_callback, 10)
+        self.goal_name_pub=self.create_publisher(String,'/goal_name',10)
         self.subscription = self.create_subscription(
             Image,
             '/camera1',
@@ -91,7 +89,7 @@ class TelemetryListener(Node):
         self.bridge = CvBridge()
 
         self.mission_pub=self.create_publisher(String,"/mission",10)
-        self.goal_pose_pub=self.create_publisher(Float32MultiArray,'/goal_pose_webserver',10)
+        # self.goal_pose_pub=self.create_publisher(Float32MultiArray,'/goal_pose_webserver',10)
         self.camera_state_pub=self.create_publisher(String,'/camera_state',10)
         self.goal_state_pub=self.create_publisher(String,'/goal_state',10)
         
@@ -167,6 +165,9 @@ class TelemetryListener(Node):
         with self.telemetry_lock:
             self.telemetry_data["tool_status"] = msg.data
 
+    def is_all_null(self, data):
+        return all(v is None or v == [None, None, None, None] for v in data.values())
+
 
 
     def send_goal(self, lat, lon, heading, mission_name):
@@ -210,7 +211,10 @@ class TelemetryListener(Node):
                 with self.telemetry_lock:
                     data_to_send_telemetry = self.telemetry_data.copy()
                     data_to_send_camera = self.camera_data.copy()
-                await websocket.send(json.dumps(data_to_send_telemetry))
+                    print(data_to_send_telemetry)
+                    await websocket.send(json.dumps(data_to_send_telemetry))
+                    print(data_to_send_telemetry)
+    
                 #await websocket.send(json.dumps(data_to_send_camera))
                 if self.cameras_state==CameraState.RGB_CAMERA1_OFF:
                     print("camera_off")
@@ -238,8 +242,8 @@ class TelemetryListener(Node):
                 mission_name = data.get("mission")    
                 cameras_state_str = data.get("camera_state") 
                 
-                zone_id = data.get("zone_id")
-                tool_id = data.get("tool_id")
+                # zone_id = data.get("zone_id")
+                # tool_id = data.get("tool_id")
 
                 if cameras_state_str:
                     try:
@@ -256,89 +260,23 @@ class TelemetryListener(Node):
                 if self.config_data is None:
                     self.get_logger().error("Config was not found.")
                     continue 
+                
+                #Buraya eğer goal name home ise /goal_name topicinden "home", zone ise "zone" yayını yapan, ayrıca /mission topicinde
+                #missionu yayınlayan bir if else bloğu yazalım
 
-                # -----------------------------------
-                # ZONE HEDEFİ
-                # -----------------------------------
-                if goal_name == "zone":
-                    if zone_id is None:
-                        self.get_logger().warn("Zone goal was received however id is missing.")
-                    else:
-                        self.get_logger().info(f"Zone id: {zone_id}")
-                        zones = self.config_data.get("zone", [])
-                        
-                        found = False
-                        for zone in zones:
-                            if str(zone.get("id")) == str(zone_id):
-                                boundary = zone.get("boundary", []) #TODO ilk boundary noktasına gidiliyoe şu an, onun için path_coverage paketini entegre et 
-                                if boundary:
-                                    first_point = boundary[0]  # firs boundary 
-                                    target_pose_data = {
-                                        "lat": first_point.get("lat"),
-                                        "lon": first_point.get("lon"),
-                                        "heading": 0.0
-                                    }
-                                    self.get_logger().info(
-                                        f"Zone: {zone.get('name')} First boundary"
-                                    )
-                                    found = True
-                                else:
-                                    self.get_logger().warn(
-                                        f"Zone '{zone_id}' but boundary is empty"
-                                    )
-                                break 
+                if goal_name is not None:
+                    goal_pub_msg = String()
+                    goal_pub_msg.data = str(goal_name)
+                    self.get_logger().info(f"Goal name: {goal_name}")
+                    self.goal_name_pub.publish(goal_pub_msg)
 
-                        if not found:
-                            self.get_logger().warn(
-                                f"Cannot find zone that has ID:'{zone_id}'."
-                            )
-
-                elif goal_name == "tool":
-                    if tool_id is None:
-                        self.get_logger().warn("Tool goal was received but tool id is null.")
-                    else:
-                        self.get_logger().info(f"Tool ID = {tool_id}")
-                        tools = self.config_data.get("tool", [])
-                        found = False
-
-                        for tool in tools:
-                            if str(tool.get("id")) == str(tool_id):
-                                target_pose_data = tool.get("location")
-                                if target_pose_data:
-                                    self.get_logger().info(
-                                        f"Tool:: {tool.get('name')}."
-                                    )
-                                    found = True
-                                else:
-                                    self.get_logger().warn(
-                                        f"Tool '{tool_id}' no location data"
-                                    )
-                                break
-
-                        if not found:
-                            self.get_logger().warn(
-                                f"No Tool ID: '{tool_id}' in the config."
-                            )
-
-                elif goal_name is not None:
-                    self.get_logger().info(f"Custom goal:'{goal_name}'")
-
-                    target_pose_data = (
-                        self.config_data.get("config", {}).get(goal_name)
-                    )
-
-                    if not target_pose_data:
-                        self.get_logger().warn(
-                            f"No custom goal for: '{goal_name}'."
-                        )
-
-                elif goal_name is not None:
-                    self.get_logger().warn(f"Unknown goal: {goal_name}")
-
-                if target_pose_data:
-                    self.get_logger().info(f"Goal pose: {target_pose_data}")
-                else:
-                    self.get_logger().warn("No goal")
+                # Mission yayınlama
+                if mission_name is not None:
+                    mission_pub_msg = String()
+                    mission_pub_msg.data = str(mission_name)
+                    self.mission_pub.publish(mission_pub_msg)
+                    self.get_logger().info(f"Mission published: {mission_name}")
+                  
 
         except: 
             pass

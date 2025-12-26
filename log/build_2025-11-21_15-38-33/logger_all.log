@@ -1,0 +1,586 @@
+[0.178s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.178s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77fb224cc470>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77fb224cc0b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77fb224cc0b0>>, mixin_verb=('build',))
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.251s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cuma_karaaslan/ros2_urdf_ws'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'ros'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extensions ['cmake', 'python']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'cmake'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'python'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extensions ['python_setup_py']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_costmap_filters_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_costmap_filters_demo) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_costmap_filters_demo) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_costmap_filters_demo) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_costmap_filters_demo) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_costmap_filters_demo) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_costmap_filters_demo) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_costmap_filters_demo) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_costmap_filters_demo) by extension 'ros'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_tutorials/nav2_costmap_filters_demo' with type 'ros.ament_cmake' and name 'nav2_costmap_filters_demo'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gps_waypoint_follower_demo) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_tutorials/nav2_gps_waypoint_follower_demo' with type 'ros.ament_python' and name 'nav2_gps_waypoint_follower_demo'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/nav2_gradient_costmap_plugin) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_tutorials/nav2_gradient_costmap_plugin' with type 'ros.ament_cmake' and name 'nav2_gradient_costmap_plugin'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(navigation2_tutorials/sam_bot_description) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation2_tutorials/sam_bot_description' with type 'ros.ament_cmake' and name 'sam_bot_description'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_web_server) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_web_server) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_web_server) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_web_server) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_web_server) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_web_server) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_web_server) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_web_server) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_web_server) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_web_server' with type 'ros.ament_python' and name 'robot_web_server'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.352s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 505 installed packages in /opt/ros/jazzy
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup', 'merge_install': False, 'path': '/home/cuma_karaaslan/ros2_urdf_ws/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description', 'merge_install': False, 'path': '/home/cuma_karaaslan/ros2_urdf_ws/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'nav2_costmap_filters_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_costmap_filters_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo', 'merge_install': False, 'path': '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_costmap_filters_demo', 'symlink_install': False, 'test_result_base': None}
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_gps_waypoint_follower_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gps_waypoint_follower_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo', 'merge_install': False, 'path': '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_gps_waypoint_follower_demo', 'symlink_install': False, 'test_result_base': None}
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'nav2_gradient_costmap_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_gradient_costmap_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin', 'merge_install': False, 'path': '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_gradient_costmap_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'robot_web_server' build argument 'cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'robot_web_server' build argument 'cmake_target' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'robot_web_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'robot_web_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'robot_web_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'robot_web_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'robot_web_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'robot_web_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'robot_web_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.459s] DEBUG:colcon.colcon_core.verb:Building package 'robot_web_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server', 'merge_install': False, 'path': '/home/cuma_karaaslan/ros2_urdf_ws/src/robot_web_server', 'symlink_install': False, 'test_result_base': None}
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.459s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.459s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cuma_karaaslan/ros2_urdf_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/cuma_karaaslan/ros2_urdf_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_target' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.460s] Level 5:colcon.colcon_core.verb:set package 'sam_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.460s] DEBUG:colcon.colcon_core.verb:Building package 'sam_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description', 'merge_install': False, 'path': '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/sam_bot_description', 'symlink_install': False, 'test_result_base': None}
+[0.460s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.461s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.462s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cuma_karaaslan/ros2_urdf_ws/src/my_robot_bringup' with build type 'ament_cmake'
+[0.462s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cuma_karaaslan/ros2_urdf_ws/src/my_robot_bringup'
+[0.468s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cuma_karaaslan/ros2_urdf_ws/src/my_robot_description' with build type 'ament_cmake'
+[0.476s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cuma_karaaslan/ros2_urdf_ws/src/my_robot_description'
+[0.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.482s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_costmap_filters_demo' with build type 'ament_cmake'
+[0.482s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_costmap_filters_demo'
+[0.483s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.483s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.489s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_gps_waypoint_follower_demo' with build type 'ament_python'
+[0.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gps_waypoint_follower_demo', 'ament_prefix_path')
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/ament_prefix_path.ps1'
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/ament_prefix_path.dsv'
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/ament_prefix_path.sh'
+[0.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.504s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_gradient_costmap_plugin' with build type 'ament_cmake'
+[0.504s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_gradient_costmap_plugin'
+[0.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.516s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cuma_karaaslan/ros2_urdf_ws/src/robot_web_server' with build type 'ament_python'
+[0.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_web_server', 'ament_prefix_path')
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/robot_web_server/hook/ament_prefix_path.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/robot_web_server/hook/ament_prefix_path.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/robot_web_server/hook/ament_prefix_path.sh'
+[0.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.527s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cuma_karaaslan/ros2_urdf_ws/src/rplidar_ros' with build type 'ament_cmake'
+[0.527s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cuma_karaaslan/ros2_urdf_ws/src/rplidar_ros'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.535s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/sam_bot_description' with build type 'ament_cmake'
+[0.535s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/sam_bot_description'
+[0.535s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup
+[0.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description
+[0.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_costmap_filters_demo -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo
+[1.048s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_gps_waypoint_follower_demo'
+[1.049s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.049s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_gradient_costmap_plugin -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin
+[1.796s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cuma_karaaslan/ros2_urdf_ws/src/robot_web_server'
+[1.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.797s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros
+[1.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/sam_bot_description -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description
+[2.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description
+[2.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_description -- -j12 -l12
+[2.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_costmap_filters_demo -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo
+[2.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo -- -j12 -l12
+[2.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup
+[2.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup -- -j12 -l12
+[2.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_description -- -j12 -l12
+[2.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_description
+[2.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo -- -j12 -l12
+[2.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo
+[2.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup -- -j12 -l12
+[2.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup
+[2.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_costmap_filters_demo)
+[2.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_costmap_filters_demo
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo' for CMake module files
+[2.843s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo' for CMake config files
+[2.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_costmap_filters_demo', 'cmake_prefix_path')
+[2.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/hook/cmake_prefix_path.ps1'
+[2.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/hook/cmake_prefix_path.dsv'
+[2.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/hook/cmake_prefix_path.sh'
+[2.847s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/bin'
+[2.848s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/lib/pkgconfig/nav2_costmap_filters_demo.pc'
+[2.848s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/lib/python3.12/site-packages'
+[2.849s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/bin'
+[2.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.ps1'
+[2.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.dsv'
+[2.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.sh'
+[2.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.bash'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.zsh'
+[2.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/colcon-core/packages/nav2_costmap_filters_demo)
+[2.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_costmap_filters_demo)
+[2.861s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo' for CMake module files
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo' for CMake config files
+[2.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_costmap_filters_demo', 'cmake_prefix_path')
+[2.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/hook/cmake_prefix_path.ps1'
+[2.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/hook/cmake_prefix_path.dsv'
+[2.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/hook/cmake_prefix_path.sh'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/bin'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/lib/pkgconfig/nav2_costmap_filters_demo.pc'
+[2.868s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/lib/python3.12/site-packages'
+[2.868s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/bin'
+[2.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.ps1'
+[2.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.dsv'
+[2.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.sh'
+[2.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.bash'
+[2.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.zsh'
+[2.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_costmap_filters_demo/share/colcon-core/packages/nav2_costmap_filters_demo)
+[2.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[2.879s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup' for CMake module files
+[2.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_bringup
+[2.883s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup' for CMake config files
+[2.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[2.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[2.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[2.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[2.887s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/bin'
+[2.888s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[2.888s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/lib/python3.12/site-packages'
+[2.889s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/bin'
+[2.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[2.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[2.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[2.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[2.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[2.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[2.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup' for CMake module files
+[2.898s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup' for CMake config files
+[2.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[2.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[2.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[2.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[2.902s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/bin'
+[2.903s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[2.903s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/lib/python3.12/site-packages'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/bin'
+[2.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[2.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[2.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[2.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[2.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[2.908s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[2.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[2.919s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description' for CMake module files
+[2.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/my_robot_description
+[2.921s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description' for CMake config files
+[2.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[2.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[2.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[2.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[2.926s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/bin'
+[2.926s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[2.927s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/lib/python3.12/site-packages'
+[2.928s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/bin'
+[2.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/package.ps1'
+[2.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/package.dsv'
+[2.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/package.sh'
+[2.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/package.bash'
+[2.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/package.zsh'
+[2.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[2.934s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[2.934s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description' for CMake module files
+[2.935s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description' for CMake config files
+[2.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[2.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[2.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[2.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[2.938s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/bin'
+[2.939s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[2.939s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/lib/python3.12/site-packages'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/bin'
+[2.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/package.ps1'
+[2.942s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/package.dsv'
+[2.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/package.sh'
+[2.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/package.bash'
+[2.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/my_robot_description/package.zsh'
+[2.946s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[3.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_gps_waypoint_follower_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gps_waypoint_follower_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_gps_waypoint_follower_demo build --build-base /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gps_waypoint_follower_demo/build install --record /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gps_waypoint_follower_demo/install.log --single-version-externally-managed install_data
+[3.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/src/robot_web_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_web_server build --build-base /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build install --record /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/install.log --single-version-externally-managed install_data
+[3.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/sam_bot_description -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description
+[3.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description -- -j12 -l12
+[3.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description -- -j12 -l12
+[3.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description
+[3.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sam_bot_description)
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description' for CMake module files
+[3.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/sam_bot_description
+[3.960s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description' for CMake config files
+[3.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('sam_bot_description', 'cmake_prefix_path')
+[3.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.ps1'
+[3.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.dsv'
+[3.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.sh'
+[3.964s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/bin'
+[3.965s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/lib/pkgconfig/sam_bot_description.pc'
+[3.965s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/lib/python3.12/site-packages'
+[3.965s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/bin'
+[3.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/package.ps1'
+[3.967s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/package.dsv'
+[3.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/package.sh'
+[3.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/package.bash'
+[3.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/package.zsh'
+[3.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/colcon-core/packages/sam_bot_description)
+[3.970s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sam_bot_description)
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description' for CMake module files
+[3.971s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description' for CMake config files
+[3.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('sam_bot_description', 'cmake_prefix_path')
+[3.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.ps1'
+[3.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.dsv'
+[3.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/hook/cmake_prefix_path.sh'
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/bin'
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/lib/pkgconfig/sam_bot_description.pc'
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/lib/python3.12/site-packages'
+[3.975s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/bin'
+[3.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/package.ps1'
+[3.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/package.dsv'
+[3.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/package.sh'
+[3.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/package.bash'
+[3.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/sam_bot_description/package.zsh'
+[3.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/sam_bot_description/share/colcon-core/packages/sam_bot_description)
+[4.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros
+[4.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/rplidar_ros -- -j12 -l12
+[4.822s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo' for CMake module files
+[4.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_gps_waypoint_follower_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gps_waypoint_follower_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nav2_gps_waypoint_follower_demo build --build-base /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gps_waypoint_follower_demo/build install --record /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gps_waypoint_follower_demo/install.log --single-version-externally-managed install_data
+[4.824s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo' for CMake config files
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/lib'
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/bin'
+[4.827s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/lib/pkgconfig/nav2_gps_waypoint_follower_demo.pc'
+[4.827s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.12/site-packages'
+[4.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gps_waypoint_follower_demo', 'pythonpath')
+[4.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/pythonpath.ps1'
+[4.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/pythonpath.dsv'
+[4.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/pythonpath.sh'
+[4.832s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/bin'
+[4.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_gps_waypoint_follower_demo)
+[4.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/package.ps1'
+[4.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/package.dsv'
+[4.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/package.sh'
+[4.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/package.bash'
+[4.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/package.zsh'
+[4.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gps_waypoint_follower_demo/share/colcon-core/packages/nav2_gps_waypoint_follower_demo)
+[5.117s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server' for CMake module files
+[5.119s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server' for CMake config files
+[5.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/src/robot_web_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_web_server build --build-base /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build install --record /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/install.log --single-version-externally-managed install_data
+[5.121s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib'
+[5.121s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/bin'
+[5.122s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/pkgconfig/robot_web_server.pc'
+[5.122s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages'
+[5.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_web_server', 'pythonpath')
+[5.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/robot_web_server/hook/pythonpath.ps1'
+[5.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/robot_web_server/hook/pythonpath.dsv'
+[5.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/robot_web_server/hook/pythonpath.sh'
+[5.126s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/bin'
+[5.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_web_server)
+[5.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/robot_web_server/package.ps1'
+[5.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/robot_web_server/package.dsv'
+[5.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/robot_web_server/package.sh'
+[5.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/robot_web_server/package.bash'
+[5.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/robot_web_server/package.zsh'
+[5.132s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/colcon-core/packages/robot_web_server)
+[7.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cuma_karaaslan/ros2_urdf_ws/navigation2_tutorials/nav2_gradient_costmap_plugin -DCMAKE_INSTALL_PREFIX=/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin
+[7.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin -- -j12 -l12
+[18.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin -- -j12 -l12
+[18.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin
+[18.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_gradient_costmap_plugin)
+[18.820s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin' for CMake module files
+[18.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/nav2_gradient_costmap_plugin
+[18.822s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin' for CMake config files
+[18.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gradient_costmap_plugin', 'cmake_prefix_path')
+[18.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.ps1'
+[18.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.dsv'
+[18.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.sh'
+[18.826s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/lib'
+[18.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gradient_costmap_plugin', 'ld_library_path_lib')
+[18.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.ps1'
+[18.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.dsv'
+[18.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.sh'
+[18.828s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/bin'
+[18.829s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/lib/pkgconfig/nav2_gradient_costmap_plugin.pc'
+[18.829s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/lib/python3.12/site-packages'
+[18.829s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/bin'
+[18.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.ps1'
+[18.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.dsv'
+[18.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.sh'
+[18.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.bash'
+[18.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.zsh'
+[18.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/colcon-core/packages/nav2_gradient_costmap_plugin)
+[18.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_gradient_costmap_plugin)
+[18.835s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin' for CMake module files
+[18.836s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin' for CMake config files
+[18.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gradient_costmap_plugin', 'cmake_prefix_path')
+[18.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.ps1'
+[18.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.dsv'
+[18.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/cmake_prefix_path.sh'
+[18.839s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/lib'
+[18.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gradient_costmap_plugin', 'ld_library_path_lib')
+[18.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.ps1'
+[18.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.dsv'
+[18.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/hook/ld_library_path_lib.sh'
+[18.842s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/bin'
+[18.842s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/lib/pkgconfig/nav2_gradient_costmap_plugin.pc'
+[18.843s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/lib/python3.12/site-packages'
+[18.843s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/bin'
+[18.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.ps1'
+[18.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.dsv'
+[18.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.sh'
+[18.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.bash'
+[18.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.zsh'
+[18.848s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/nav2_gradient_costmap_plugin/share/colcon-core/packages/nav2_gradient_costmap_plugin)
+[22.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cuma_karaaslan/ros2_urdf_ws/build/rplidar_ros -- -j12 -l12
+[22.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cuma_karaaslan/ros2_urdf_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/rplidar_ros
+[22.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[22.119s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros' for CMake module files
+[22.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cuma_karaaslan/ros2_urdf_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cuma_karaaslan/ros2_urdf_ws/build/rplidar_ros
+[22.120s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros' for CMake config files
+[22.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[22.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[22.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[22.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[22.123s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/lib'
+[22.123s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/bin'
+[22.123s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[22.123s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/lib/python3.12/site-packages'
+[22.124s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/bin'
+[22.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[22.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[22.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[22.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[22.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[22.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[22.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[22.127s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros' for CMake module files
+[22.128s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros' for CMake config files
+[22.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[22.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[22.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[22.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[22.130s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/lib'
+[22.130s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/bin'
+[22.130s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[22.130s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/lib/python3.12/site-packages'
+[22.130s] Level 1:colcon.colcon_core.environment:checking '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/bin'
+[22.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[22.131s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[22.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[22.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[22.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[22.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cuma_karaaslan/ros2_urdf_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[22.133s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.134s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.161s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.162s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.162s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.188s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.189s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cuma_karaaslan/ros2_urdf_ws/install/local_setup.ps1'
+[22.190s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cuma_karaaslan/ros2_urdf_ws/install/_local_setup_util_ps1.py'
+[22.192s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cuma_karaaslan/ros2_urdf_ws/install/setup.ps1'
+[22.194s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cuma_karaaslan/ros2_urdf_ws/install/local_setup.sh'
+[22.195s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cuma_karaaslan/ros2_urdf_ws/install/_local_setup_util_sh.py'
+[22.195s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cuma_karaaslan/ros2_urdf_ws/install/setup.sh'
+[22.197s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cuma_karaaslan/ros2_urdf_ws/install/local_setup.bash'
+[22.197s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cuma_karaaslan/ros2_urdf_ws/install/setup.bash'
+[22.199s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cuma_karaaslan/ros2_urdf_ws/install/local_setup.zsh'
+[22.200s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cuma_karaaslan/ros2_urdf_ws/install/setup.zsh'

@@ -1,0 +1,50 @@
+running egg_info
+creating ../../build/robot_web_server/robot_web_server.egg-info
+writing ../../build/robot_web_server/robot_web_server.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_web_server/robot_web_server.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_web_server/robot_web_server.egg-info/entry_points.txt
+writing requirements to ../../build/robot_web_server/robot_web_server.egg-info/requires.txt
+writing top-level names to ../../build/robot_web_server/robot_web_server.egg-info/top_level.txt
+writing manifest file '../../build/robot_web_server/robot_web_server.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_web_server/robot_web_server.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_web_server/robot_web_server.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build
+creating /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib
+creating /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+copying robot_web_server/utils.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+copying robot_web_server/task_manager.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+copying robot_web_server/path_coverage.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+copying robot_web_server/goal_sender.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+copying robot_web_server/grid_map_lib.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+copying robot_web_server/websocket_server.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+copying robot_web_server/__init__.py -> /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server
+running install
+running install_lib
+creating /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/utils.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/task_manager.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/path_coverage.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/goal_sender.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/grid_map_lib.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/websocket_server.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+copying /home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/build/lib/robot_web_server/__init__.py -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server
+byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/utils.py to utils.cpython-312.pyc
+byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/task_manager.py to task_manager.cpython-312.pyc
+byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/path_coverage.py to path_coverage.cpython-312.pyc
+byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/goal_sender.py to goal_sender.cpython-312.pyc
+byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/grid_map_lib.py to grid_map_lib.cpython-312.pyc
+byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/websocket_server.py to websocket_server.cpython-312.pyc
+byte-compiling /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/ament_index
+creating /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/ament_index/resource_index
+creating /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/ament_index/resource_index/packages
+copying resource/robot_web_server -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/ament_index/resource_index/packages
+copying package.xml -> /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/share/robot_web_server
+running install_egg_info
+Copying ../../build/robot_web_server/robot_web_server.egg-info to /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/python3.12/site-packages/robot_web_server-0.0.0-py3.12.egg-info
+running install_scripts
+Installing web_server script to /home/cuma_karaaslan/ros2_urdf_ws/install/robot_web_server/lib/robot_web_server
+writing list of installed files to '/home/cuma_karaaslan/ros2_urdf_ws/build/robot_web_server/install.log'

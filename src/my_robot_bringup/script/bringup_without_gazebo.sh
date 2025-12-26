@@ -4,13 +4,13 @@
 source /opt/ros/jazzy/setup.bash
 source ~/ros2_urdf_ws/install/setup.bash  # kendi workspace yolunu değiştir
 
-echo "Launching map server..."
-ros2 launch my_robot_bringup map_server.launch.py &
-MAP_PID=$!
-sleep 2
+# echo "Launching map server..."
+# ros2 launch my_robot_bringup map_server.launch.py &
+# MAP_PID=$!
+# sleep 2
 
 echo "Launching EKF"
-ros2 launch my_robot_bringup amiga_ekf.launch.py &
+ros2 launch my_robot_bringup amiga_navsat_ekf.launch.py &
 EKF_PID=$!
 sleep 2
 
@@ -24,9 +24,9 @@ ros2 launch my_robot_bringup amiga_navigation.launch.py &
 NAV2_PID=$!
 sleep 5
 
-echo "Configuring and activating map_server..."
-ros2 lifecycle set /map_server configure
-ros2 lifecycle set /map_server activate
+# echo "Configuring and activating map_server..."
+# ros2 lifecycle set /map_server configure
+# ros2 lifecycle set /map_server activate
 
 echo "Launching RViz..."
 ros2 launch nav2_bringup rviz_launch.py &
