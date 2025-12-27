@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# ROS2 ortamını kaynağa al
+
 source /opt/ros/humble/setup.bash
-source ~/ros2_urdf_ws/install/setup.bash  # kendi workspace yolunu değiştir
+source ~/ros2_urdf_ws/install/setup.bash  
 
 echo "Launching Gazebo simulation..."
 ros2 launch my_robot_bringup my_robot_gazebo.launch.py &
 GAZEBO_PID=$!
-sleep 5  # Gazebo'nun açılması için bekle
+sleep 5  
 
 echo "Starting static transform publisher..."
 ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 gps_link simple_rover/base_link/navsat &
