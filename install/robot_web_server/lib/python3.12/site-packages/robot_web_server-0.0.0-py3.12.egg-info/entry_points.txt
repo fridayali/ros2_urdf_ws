@@ -1,2 +1,0 @@
-[console_scripts]
-web_server = robot_web_server.web_server:main
